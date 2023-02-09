@@ -1,0 +1,14 @@
+Este dataset contiene información de uso de bicicletas públicas por franjas horarias de Londres con información meteorológica de la ciudad para cada fecha y hora concretas. Nuestro cliente quiere poder predecir el uso de las bicicletas con los datos aportados. Para ello, lo primero que debes hacer es realizar un análisis exploratorio de los datos (EDA). Qué puedes observar en estos datos? Qué afectación tiene la meteorología en el uso de las bicicletas? Qué conclusiones podemos sacar? Será posible crear con estos datos un modelo predictivo? Analiza las variables pensando en el valor que le puedes aportar al cliente con este análisis.
+
+Las columnas son:
+
+1.- timestamp: fecha y hora de referencia del registro
+2.- real_temperature: temperatura real en grados centígrados
+3.- feeling_temperature: sensación térmica en grados centígrados
+4.- humidity: humedad relativa en tanto por cien
+5.- wind_speed: velocidad del viento en km/h
+6.- weather: tiempo
+7.- is_holiday: 1 si es festivo, 0 si no es festivo
+8.- is_weekend: 1 si es fin de semana, 0 si no lo es
+9.- season: estación del año
+10.- used_bikes: cantidad de bicis en uso para ese registro de fecha y hora
